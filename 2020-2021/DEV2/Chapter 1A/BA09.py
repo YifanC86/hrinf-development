@@ -1,14 +1,17 @@
 def incr2():
-  global y
-  y = y + 2
+    global y
+    y = y + 2
+
 
 def mul2():
-  global y
-  y = y * 2
+    global y
+    y = y * 2
+
 
 def div2():
-  global y
-  y = y // 2
+    global y
+    y = y // 2
+
 
 y = -2
 incr2()

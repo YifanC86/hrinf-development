@@ -1,5 +1,5 @@
 x = 19
 limit = 10
 while x > limit:
-  x = x - 2
+    x = x - 2
 print()

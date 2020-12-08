@@ -4,6 +4,6 @@ s = ''
 print()
 num = start
 while num <= end:
-  s = s + str(num)
-  num = num + 1
+    s = s + str(num)
+    num = num + 1
 print()

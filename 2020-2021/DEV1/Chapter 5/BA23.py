@@ -6,8 +6,8 @@ res = ''
 
 i = m
 while i <= n:
-  if i % x == 0:
-    res = res + str(i)
-  i = i + 1
+    if i % x == 0:
+        res = res + str(i)
+    i = i + 1
 
 print()

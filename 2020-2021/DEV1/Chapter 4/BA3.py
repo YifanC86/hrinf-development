@@ -1,8 +1,8 @@
 niceWeather = True
 appointment = True
 if (niceWeather or appointment):
- decision = 'go out'
+    decision = 'go out'
 else:
- decision = 'stay home'
+    decision = 'stay home'
 
 print()

@@ -7,10 +7,10 @@ palindrome = False
 
 i = len(numberAsString) - 1
 while i >= 0:
-  reverse = reverse + numberAsString[i]
-  i = i - 1
+    reverse = reverse + numberAsString[i]
+    i = i - 1
 reverse = int(reverse)
 if reverse == number:
-  palindrome = True
+    palindrome = True
 
 print()

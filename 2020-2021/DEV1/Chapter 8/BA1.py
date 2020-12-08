@@ -33,18 +33,18 @@ maxHeight = 8
 row = 1
 shape = ''
 while row <= maxHeight:
-  col = 1
-  while col <= maxWidth:    
-    if (
-      col >= c1 and col < c1 + width1 and row >= r1 and row < r1 + height1
-    ) or (
-      col >= c2 and col < c2 + width2 and row >= r2 and row < r2 + height2
-    ):
-      shape = shape + '*'
-    else:
-      shape = shape + '-'
-    col = col + 1
-  shape = shape + '\n'
-  row = row + 1
-  
+    col = 1
+    while col <= maxWidth:
+        if (
+            col >= c1 and col < c1 + width1 and row >= r1 and row < r1 + height1
+        ) or (
+            col >= c2 and col < c2 + width2 and row >= r2 and row < r2 + height2
+        ):
+            shape = shape + '*'
+        else:
+            shape = shape + '-'
+        col = col + 1
+    shape = shape + '\n'
+    row = row + 1
+
 print()

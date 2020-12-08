@@ -1,13 +1,13 @@
-points= 35
+points = 35
 totalPoints = 50
 print()
 percentage = int(points/totalPoints*100)
 if percentage < 50:
-  remarks = 'Unsatisfactory'
+    remarks = 'Unsatisfactory'
 elif percentage >= 50 and percentage < 70:
-  remarks = 'Satisfactory'
+    remarks = 'Satisfactory'
 elif percentage >= 70 and percentage < 90:
-  remarks = 'Good'
+    remarks = 'Good'
 elif percentage >= 90:
-  remarks = 'Excellent'
+    remarks = 'Excellent'
 print()

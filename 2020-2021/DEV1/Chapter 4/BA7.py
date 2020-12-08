@@ -2,7 +2,7 @@ grade = 4.3
 threshold = 5.5
 print()
 if grade >= threshold:
-  result = 'pass'
+    result = 'pass'
 else:
-  result = 'fail'
+    result = 'fail'
 print()

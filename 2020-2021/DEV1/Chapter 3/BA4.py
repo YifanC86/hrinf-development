@@ -9,8 +9,8 @@ ans3 = c == 'Hello'
 ans4 = d == a
 
 result = 'The first is ' + str(ans1) \
-       + ', the second is ' + str(ans2) \
-       + ', the third is ' + str(ans3) \
-       + ', the fourth is ' + str(ans4)
+    + ', the second is ' + str(ans2) \
+    + ', the third is ' + str(ans3) \
+    + ', the fourth is ' + str(ans4)
 
 print()

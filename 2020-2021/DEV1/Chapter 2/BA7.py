@@ -6,5 +6,6 @@ cherryQuantity = 3
 cherryPrice = 10
 persons = 3
 
-costPerPerson = (appleQuantity * applePrice + bananaQuantity * bananaPrice + cherryQuantity * cherryPrice) / persons
+costPerPerson = (appleQuantity * applePrice + bananaQuantity *
+                 bananaPrice + cherryQuantity * cherryPrice) / persons
 print()

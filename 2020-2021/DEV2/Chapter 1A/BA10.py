@@ -1,6 +1,7 @@
 def greet():
-  global greeting 
-  greeting = 'Hello ' + name + '!'
+    global greeting
+    greeting = 'Hello ' + name + '!'
+
 
 name = 'Wim'
 greeting = ''

@@ -1,19 +1,19 @@
 day = 4
 print()
 if day == 1:
-  s = 'Sunday'
+    s = 'Sunday'
 elif day == 2:
-  s = 'Monday'
+    s = 'Monday'
 elif day == 3:
-  s = 'Tuesday'
+    s = 'Tuesday'
 elif day == 4:
-  s = 'Wednesday'
+    s = 'Wednesday'
 elif day == 5:
-  s = 'Thursday'
+    s = 'Thursday'
 elif day == 6:
-  s = 'Friday'
+    s = 'Friday'
 elif day == 7:
-  s = 'Saturday'
+    s = 'Saturday'
 else:
-  s = 'ERROR: day of the week unknown'
+    s = 'ERROR: day of the week unknown'
 print()

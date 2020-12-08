@@ -1,11 +1,11 @@
 n = 15
 print()
 if (n % 3 == 0 and n % 5 == 0):
-  output = 'Purple'
+    output = 'Purple'
 elif n % 3 == 0:
-  output = 'Blue'
+    output = 'Blue'
 elif n % 5 == 0:
-  output = 'Red'
+    output = 'Red'
 else:
-  output =  'Razzmatazz'
+    output = 'Razzmatazz'
 print()
