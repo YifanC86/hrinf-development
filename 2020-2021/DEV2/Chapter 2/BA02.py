@@ -1,11 +1,17 @@
-def countup(n):
-  if n <= 0:
-    return ''
-  elif n == 1:
-    return '1'
-  else:
-    return countup(n-1) + ',' + str(n)
+def sqr(n):
+    print()
+    return n * n
 
-a = countup(0)
-b = countup(5)
+
+def sumOfSqr(n):
+    ss = 0
+    while n > 0:
+        ss = ss + sqr(n)
+        n = n - 1
+    return ss
+
+
+a = sqr(5)
+a = sumOfSqr(5)
+a = sumOfSqr(sqr(2))
 print()
